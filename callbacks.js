@@ -22,10 +22,11 @@ Clock.prototype.run = function() {
   loopStep();
 
   function click() {
-    console.log("click");
+    console.log("Click!");
     var curSeconds = clock.currentTime.getSeconds();
     clock.currentTime.setSeconds(curSeconds + 5);
     console.log(clock.currentTime);
+    console.log("-------------");
   }
 }
 
